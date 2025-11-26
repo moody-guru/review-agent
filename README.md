@@ -30,6 +30,13 @@ git clone https://github.com/moody-guru/review-agent.git
 cd lyzr-challenge
 pip install -r requirements.txt
 ```
+### 3. Start the Microservices
+```bash
+npx localtunnel --port 8000
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
+streamlit run ui.py
+```
+
 <img width="1918" height="1005" alt="Screenshot 2025-11-26 143340" src="https://github.com/user-attachments/assets/57265bc4-13de-4d76-bdc7-adb2dd7134ef" />
 <img width="1460" height="762" alt="2" src="https://github.com/user-attachments/assets/65d8b2ca-4538-44ce-8408-2e46fed09c87" />
 
