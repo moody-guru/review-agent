@@ -1,0 +1,18 @@
+# --- SECRETS (NEVER PUSH THESE) ---
+.env
+*.pem
+private_key.pem
+
+# --- Python Junk ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Environment & Binaries ---
+venv/
+env/
+ngrok.exe
+
+# --- OS Junk ---
+.DS_Store
+Thumbs.db
